@@ -1,0 +1,10 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: g6k-kernel
+Description: lattice algorithms with floating-point computations
+Version: 0.1.2
+Cflags: -pthread -Ofast -ftree-vectorize -funroll-loops -Wall -Wextra 
+Libs: -lpthread  
